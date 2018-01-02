@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1100.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graph_application_dj_kstra.FXMLDocumentController">
+   <children>
+      <ImageView fx:id="custemImageView" fitHeight="576.0" fitWidth="821.0" layoutX="287.0" layoutY="164.0" pickOnBounds="true" AnchorPane.leftAnchor="287.0" AnchorPane.topAnchor="164.0" />
+      <AnchorPane layoutX="60.0" layoutY="251.0" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="251.0">
+         <children>
+            <JFXComboBox fx:id="from_Combox" layoutX="113.0" layoutY="31.0" />
+            <JFXComboBox fx:id="to_Combox" layoutX="113.0" layoutY="122.0" />
+            <JFXButton fx:id="excuteButton" layoutY="185.0" onAction="#showResult" prefHeight="25.0" prefWidth="169.0" text="Click me !" />
+            <Label layoutX="25.0" prefHeight="17.0" prefWidth="152.0" text="Send a message:" />
+            <Label layoutX="39.0" layoutY="48.0" text="From:" />
+            <Label layoutX="39.0" layoutY="139.0" text="To: " />
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="espritLogo" fitHeight="150.0" fitWidth="499.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+   </children>
+</AnchorPane>
